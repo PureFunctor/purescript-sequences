@@ -7,3 +7,4 @@ tmp/
 .pulp-cache/
 npm-debug.log
 docs/
+.spago
