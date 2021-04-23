@@ -5,10 +5,12 @@
   "keywords": [
     "purescript"
   ],
-  "license": "MIT",
+  "license": [
+    "MIT"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hdgarrood/purescript-sequences"
+    "url": "https://github.com/hdgarrood/purescript-sequences.git"
   },
   "ignore": [
     "**/.*",
@@ -22,22 +24,20 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-prelude": "^5.0.0",
-    "purescript-unsafe-coerce": "^5.0.0",
-    "purescript-partial": "^3.0.0",
-    "purescript-unfoldable": "^5.0.0",
-    "purescript-lazy": "^5.0.0",
-    "purescript-arrays": "^6.0.0",
-    "purescript-profunctor": "^5.0.0",
-    "purescript-maybe": "^5.0.0",
-    "purescript-tuples": "^6.0.0",
-    "purescript-newtype": "^4.0.0"
-  },
-  "devDependencies": {
-    "purescript-assert": "^5.0.0",
-    "purescript-psci-support": "^5.0.0",
-    "purescript-quickcheck": "^7.0.0",
-    "purescript-quickcheck-laws": "^6.0.0",
-    "purescript-nonempty": "^6.0.0"
+    "purescript-arrays": "^v6.0.0",
+    "purescript-assert": "^v5.0.0",
+    "purescript-console": "^v5.0.0",
+    "purescript-effect": "^v3.0.0",
+    "purescript-lazy": "^v5.0.0",
+    "purescript-maybe": "^v5.0.0",
+    "purescript-newtype": "^v4.0.0",
+    "purescript-nonempty": "^v6.0.0",
+    "purescript-partial": "^v3.0.0",
+    "purescript-prelude": "^v5.0.0",
+    "purescript-profunctor": "^v5.0.0",
+    "purescript-psci-support": "^v5.0.0",
+    "purescript-tuples": "^v6.0.0",
+    "purescript-unfoldable": "^v5.0.0",
+    "purescript-unsafe-coerce": "^v5.0.0"
   }
 }
