@@ -3,11 +3,12 @@
   [ "arrays"
   , "assert"
   , "console"
+  , "control"
   , "effect"
+  , "foldable-traversable"
   , "lazy"
   , "maybe"
   , "newtype"
-  , "nonempty"
   , "partial"
   , "prelude"
   , "profunctor"
@@ -17,7 +18,7 @@
   , "unsafe-coerce"
   ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs", "test/**/*.purs" ]
+, sources = [ "src/**/*.purs" ]
 , license = "MIT"
 , repository = "https://github.com/hdgarrood/purescript-sequences.git"
 }
