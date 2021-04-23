@@ -1,10 +1,7 @@
 { name = "sequences"
 , dependencies =
   [ "arrays"
-  , "assert"
-  , "console"
   , "control"
-  , "effect"
   , "foldable-traversable"
   , "lazy"
   , "maybe"
