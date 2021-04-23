@@ -5,9 +5,9 @@
     "pulp": "^12.3.1"
   },
   "scripts": {
-    "postinstall": "bower install",
-    "bench": "pulp build -I benchmarks --main Benchmark.Main -O --to output/benchmarks.js && (echo '*' | node output/benchmarks.js)",
-    "build": "pulp build",
-    "test": "pulp test"
+    "postinstall": "spago install",
+    "build": "spago build",
+    "bench": "spago -x bench.dhall bundle-app -m Benchmark.Main -t output/benchmarks.js && (echo '*' | node output/benchmarks.js)",
+    "test": "spago -x tests.dhall test"
   }
 }
